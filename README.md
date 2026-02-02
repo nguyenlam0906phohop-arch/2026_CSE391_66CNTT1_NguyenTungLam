@@ -53,9 +53,3 @@ Ví dụ các thao tác Git cơ bản: - git add
 -   Xây dựng được website cơ bản
 -   Làm nền tảng cho học Web nâng cao và Backend sau này
 
-------------------------------------------------------------------------
-
-## 📫 Liên hệ
-
--   GitHub: (thêm link GitHub của bạn)\
--   Email: (thêm email của bạn)
