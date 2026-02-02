@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+</head>
+
+<body>
+
+<h1>Employee Information</h1>
+
+<form>
+
+    <h2>Basic Info</h2>
+
+    <label>Employee ID:</label>
+    <input type="text" name="employee_id">
+    <br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="last_name">
+    <br><br>
+
+    <label>First Name:</label>
+    <input type="text" name="first_name">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="XXX"> XXX
+    <input type="radio" name="gender" value="ZZZ"> ZZZ
+    <br><br>
+
+    <label>Title:</label>
+    <input type="text" name="title">
+    <br><br>
+
+    <label>Suffix:</label>
+    <input type="text" name="suffix">
+    <br><br>
+
+    <label>Birth Date:</label>
+    <input type="datetime-local" name="birth_date">
+    <br><br>
+
+    <label>Hire Date:</label>
+    <input type="datetime-local" name="hire_date">
+    <br><br>
+
+    <label>SSN (if applicable):</label>
+    <input type="text" name="ssn">
+    <br><br>
+
+    <label>Reports To:</label>
+    <select name="report_to">
+        <option>Buchana</option>
+        <option>Buchano</option>
+        <option>Buchani</option>
+        <option>Buchanu</option>
+    </select>
+
+    <h2>Contact Info</h2>
+
+    <label>Email:</label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>Address:</label>
+    <input type="text" name="address">
+    <br><br>
+
+    <label>City:</label>
+    <input type="text" name="city">
+    <br><br>
+
+    <label>Region:</label>
+    <input type="text" name="region">
+    <br><br>
+
+    <label>Postal Code:</label>
+    <input type="text" name="postal_code">
+    <br><br>
+
+    <label>Country:</label>
+    <select name="country">
+        <option>Vietnam</option>
+        <option>China</option>
+        <option>Japan</option>
+    </select>
+    <br><br>
+
+    <label>Home Phone:</label>
+    <input type="text" name="phone">
+    <br><br>
+
+    <label>Photo:</label>
+    <input type="file" name="photo">
+
+    <h2>Optional Info</h2>
+
+    <label>Notes:</label>
+    <br>
+    <textarea name="notes"></textarea>
+    <br><br>
+
+    <label>Preferred Shift:</label>
+    <input type="checkbox" name="shift_regular"> Regular
+    <input type="checkbox" name="shift_graveyard"> Graveyard
+    <br><br>
+
+    <label>Active:</label>
+    <input type="checkbox" name="active">
+    <br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+
+</form>
+
+</body>
+</html>
