@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid #000;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.name{
+    width: 47%;
+    height: 50px;
+    display: flex;
+}
+
+.email{
+    width: 47%;
+    height: 50px;
+    display: flex;
+}
+
+.subject{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;  
+}
+
+.message{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.note{
+    width: 230px;
+    display: block;
+    font-size: 13px;
+}
+
+.button{
+    display: flex;
+    background-color: rgb(61, 135, 245);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid blue;
+    height: 30px;
+}
