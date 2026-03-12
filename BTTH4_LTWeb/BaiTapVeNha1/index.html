@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=visibility" />
+
+
+</head>
+<body>
+    <form class="form">
+
+        <label>Họ tên:</label>
+        <input type="text" class="input inputName">
+        <div class="nameCount">0/50</div>
+        <div class="error errorName">Họ tên không được để trống</div>
+
+        <label>Email:</label>
+        <input type="email" class="input inputEmail">
+        <div class="error errorEmail">Email không hợp lệ</div>
+
+        <label>Số điện thoại:</label>
+        <input type="text" class="input inputPhone">
+        <div class="error errorPhone">Số điện thoại không hợp lệ</div>
+
+        <label>Mật khẩu:</label>
+        <div class="pass">
+            <input type="password" class="input inputPassword">
+            <span class="material-symbols-outlined icon1">
+                visibility
+            </span>
+        </div>
+
+        <div class="strength">
+            <div class="strengthBar"></div>
+        </div>
+        <div class="strengthText">Độ mạnh mật khẩu</div>
+
+        <div class="error errorPassword"></div>
+
+        <label>Xác nhận mật khẩu:</label>
+            <div class="pass">
+            <input type="password" class="input inputPasswordConfirm">
+            <span class="material-symbols-outlined icon2">
+            visibility
+            </span>
+        </div>
+        <div class="error errorPasswordConfirm">Mật khẩu xác nhận không khớp</div>
+       
+
+        <label>Giới tính:</label>
+        <div class="gender">
+            <label>
+                <input type="radio" name="gender" value="male"> Nam
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Nữ
+            </label>
+        </div>
+        <div class="error errorGender">Vui lòng chọn giới tính</div>
+
+        <label>
+            <input type="checkbox" class="terms"> Tôi đồng ý với điều khoản
+        </label>
+        <div class="error errorTerms">Bạn phải đồng ý điều khoản</div>
+
+        <button type="submit" class="btnSubmit">Đăng ký</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

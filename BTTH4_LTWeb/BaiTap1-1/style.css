@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{ 
+    display: flex;
+     width: 400px; 
+     height: 200px; 
+     border: 1px solid black; 
+     flex-direction: column;
+    padding: 30px;
+    } 
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.inputName{ 
+    display: flex; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inputScore{ 
+    display: flex; 
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btnAdd{
+    background-color: blue;
+    color: white;
+}
+
+.box2{
+    padding-left: 50px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+table{
+    width: 90%;
+}
+
+th{
+    font-size: 20px;
+}
+
+td,th{
+    border: 1px solid black;
+    align-self: center;
+    vertical-align:middle;
+    padding:10px;
+    text-align: center;
+}
+
+.btnDel{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}

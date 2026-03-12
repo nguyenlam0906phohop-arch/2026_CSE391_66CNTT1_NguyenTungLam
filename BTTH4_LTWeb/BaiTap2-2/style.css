@@ -1,0 +1,100 @@
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    padding:40px;
+}
+
+.form{
+    width:400px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input,select,textarea{
+    width:90%;
+    padding:8px;
+    margin-top:5px;
+}
+
+textarea{
+    height:80px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px;
+    width:100%;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    }
+
+.error{
+    color:red;
+    font-size:13px;
+    display:none;
+}
+
+.noteCount{
+    font-size:13px;
+    text-align:right;
+}
+
+.totalBox{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.confirmBox{
+    margin-top:20px;
+    background:white;
+    padding:15px;
+    border-radius:8px;
+}
+
+.paymentBox{
+    margin-top: 15px;
+}
+
+.paymentOption{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.paymentOption:hover{
+    background: #f3f7ff;
+    border-color: #007bff;
+}
+
+.paymentOption input{
+    width: 18px;
+    height: 18px;
+}
+
+.error{
+    color: red;
+}
+
+.confirmBox{
+    border:1px solid #ccc;
+    padding:20px;
+    margin-top:20px;
+    background:#f9f9f9;
+}

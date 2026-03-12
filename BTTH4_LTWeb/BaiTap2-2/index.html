@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đặt Hàng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Form đặt hàng</h2>
+    <form class="form">
+        <label>Tên sản phẩm</label>
+        <select class="product">
+            <option value="">-- Chọn sản phẩm --</option>
+            <option value="phone">Điện thoại</option>
+            <option value="laptop">Laptop</option>
+            <option value="headphone">Tai nghe</option>
+        </select>
+        <div class="error errorProduct"></div>
+
+
+        <label>Số lượng</label>
+        <input type="number" class="quantity">
+        <div class="error errorQuantity"></div>
+
+
+        <label>Ngày giao hàng</label>
+        <input type="date" class="deliveryDate">
+        <div class="error errorDeliveryDate"></div>
+
+
+        <label>Địa chỉ giao</label>
+        <input type="text" class="address">
+        <div class="error errorAddress"></div>
+
+
+        <label>Ghi chú</label>
+        <textarea class="note"></textarea>
+        <div class="noteCount">0 / 200</div>
+        <div class="error errorNote"></div>
+
+
+        <div class="paymentBox">
+
+            <label>Phương thức thanh toán</label>
+
+            <label class="paymentOption">
+                <input type="radio" name="payment" value="cod">
+                COD
+            </label>
+
+            <label class="paymentOption">
+                <input type="radio" name="payment" value="bank">
+                Chuyển khoản
+            </label>
+
+            <label class="paymentOption">
+                <input type="radio" name="payment" value="wallet">
+                Ví điện tử
+            </label>
+
+            <div class="error errorPayment"></div>
+
+            </div>
+
+
+        <div class="totalBox">
+        Tổng tiền: <span class="total">0</span> VND
+        </div>
+
+        <button type="submit">Đặt hàng</button>
+
+        </form>
+
+        <div class="confirmBox" style="display:none"></div>
+   <script src="node.js"></script>
+</body>
+</html>

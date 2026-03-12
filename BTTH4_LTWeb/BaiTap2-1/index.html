@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+
+        <label>Họ tên:</label>
+        <input type="text" class="input inputName">
+        <div class="error errorName">Họ tên không được để trống</div>
+
+        <label>Email:</label>
+        <input type="email" class="input inputEmail">
+        <div class="error errorEmail">Email không hợp lệ</div>
+
+        <label>Số điện thoại:</label>
+        <input type="text" class="input inputPhone">
+        <div class="error errorPhone">Số điện thoại không hợp lệ</div>
+
+        <label>Mật khẩu:</label>
+        <input type="password" class="input inputPassword">
+        <div class="error errorPassword">Mật khẩu phải có ít nhất 6 ký tự</div>
+
+        <label>Xác nhận mật khẩu:</label>
+        <input type="password" class="input inputPasswordConfirm">
+        <div class="error errorPasswordConfirm">Mật khẩu xác nhận không khớp</div>
+
+        <label>Giới tính:</label>
+        <div class="gender">
+            <label>
+                <input type="radio" name="gender" value="male"> Nam
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Nữ
+            </label>
+        </div>
+        <div class="error errorGender">Vui lòng chọn giới tính</div>
+
+        <label>
+            <input type="checkbox" class="terms"> Tôi đồng ý với điều khoản
+        </label>
+        <div class="error errorTerms">Bạn phải đồng ý điều khoản</div>
+
+        <button type="submit" class="btnSubmit">Đăng ký</button>
+
+    </form>
+    <script src="node.js"></script>
+</body>
+</html>
