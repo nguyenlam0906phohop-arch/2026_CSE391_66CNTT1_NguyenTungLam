@@ -1,0 +1,58 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Nguyễn Tùng Lâm",
+      "email": "nguyenlam@example.com",
+      "phone": "0123456789",
+      "position": "Nhân viên",
+      "gender": "Nam",
+      "dob": "1990-05-10"
+    },
+    {
+      "id": 2,
+      "name": "Phạm Phú Đức",
+      "email": "phamduc@example.com",
+      "phone": "0987654321",
+      "position": "Quản lý",
+      "gender": "Nam",
+      "dob": "1988-02-20"
+    },
+    {
+      "id": 3,
+      "name": "Phạm Hoàng Giang",
+      "email": "phamgiang@example.com",
+      "phone": "0123456789",
+      "position": "Nhân viên",
+      "gender": "Nam",
+      "dob": "1992-10-23"
+    },
+    {
+      "id": 4,
+      "name": "Nguyễn Trường Linh",
+      "email": "nguyenlinh@example.com",
+      "phone": "0123456789",
+      "position": "Nhân viên",
+      "gender": "Nữ",
+      "dob": "1995-07-15"
+    },
+    {
+      "id": 5,
+      "name": "Nguyễn Minh Đức",
+      "email": "nguyenduc@example.com",
+      "phone": "0123456789",
+      "position": "Nhân viên",
+      "gender": "Nam",
+      "dob": "1991-03-11"
+    },
+    {
+      "id": 6,
+      "name": "Lê Ngọc Huy",
+      "email": "leHuy@example.com",
+      "phone": "0123456789",
+      "position": "Nhân viên",
+      "gender": "Nam",
+      "dob": "1993-08-09"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="head1">
+                <div class="title">Quản lý nhân sự</div>
+                <div class="menu">
+                    <ul>
+                        <li>Trang chủ</li>
+                        <li>Liên hệ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="head2">
+                <input type="text" placeholder="Tìm kiếm..." class="searchInput">
+                <button type="submit" class="search-btn">Tìm</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="box1">
+                <div class="box1-title">Danh sách nhân sự</div>
+                <button class="add-btn">Thêm mới</button>
+            </div>
+            <div class="box2">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Họ tên</th>
+                            <th>Email</th>
+                            <th>Số điện thoại</th>
+                            <th>Vị trí</th>
+                            <th>Giới tính</th>
+                            <th>Ngày sinh</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="formInput">
+                <div class="formHeader">
+                    <div class="formTitle">Thêm mới nhân sự</div>
+                    <div class="close-btn" id="closeBtn">X</div>
+                </div>
+
+                <form class="formBody">
+                    <div class="formRow">
+                        <div class="boxForm1">
+                            <label for="name">Họ tên:</label>
+                            <input type="text" id="name" name="name" required class="inputName">
+                            <div class="error errorName"></div>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required class="inputEmail">
+                            <div class="error errorEmail"></div>
+                        </div>
+                        
+                        <div class="boxForm2">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="text" id="phone" name="phone" required class="inputPhone">
+                            <div class="error errorPhone"></div>
+
+                            <label>Vị trí:</label>
+                            <select class="selectOption">
+                                <option value="">-- Chọn vị trí -- </option>
+                                <option value="nhanvien">Nhân viên</option>
+                                <option value="quanly">Quản lý</option>
+                                <option value="giamdoc">Giám đốc</option>
+                            </select>
+                            <div class="error errorPosition"></div>
+
+                            <label>Giới tính:</label>
+                            <div>
+                                <label><input type="radio" name="gender" value="Nam" class="genderRadio"> Nam</label>
+                                <label style="margin-left: 10px;"><input type="radio" name="gender" value="Nữ" class="genderRadio"> Nữ</label>
+                            </div>
+                            <div class="error errorGender"></div>
+
+                            <label for="dob">Ngày sinh:</label>
+                            <input type="date" id="dob" name="dob" class="inputDob" required>
+                            <div class="error errorDob"></div>
+
+                            <label for="password">Mật khẩu:</label>
+                            <input type="password" id="password" name="password" class="inputPassword" required>
+                            <div class="error errorPassword"></div>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Lưu</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
